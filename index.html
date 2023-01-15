@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasza gra code:me</title>
+    <link rel="stylesheet" href="styles.css"></head>
+<body>
+    <div class="actions">
+        <h2>Kostka:&nbsp;</h2>
+        <!-- <button id="dicePlus" onclick="stitchesHandler(-1)">-1</button>
+        <strong></strong>
+        <button id="dicePlus" onclick="stitchesHandler(1)">+1</button> -->
+        <button id="diceRoll" onclick="roll()">Wykonaj rzut</button>
+    </div>
+    <div class="actions">
+        <h2>Akcje:&nbsp;</h2>
+        <h2 id="message"></h2>
+        <h2 id="endMessage"></h2>
+    </div>
+
+    <main>
+        <div id="gameboard"></div>
+        <div id="hero"></div>
+    </main>
+
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
